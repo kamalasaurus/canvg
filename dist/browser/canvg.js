@@ -4085,4 +4085,4 @@ export default (function (rgbcolor,stackblurCanvas) { 'use strict';
 
 	return canvg_1;
 
-});
+})(rgbcolor,stackblurCanvas);
