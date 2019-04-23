@@ -8,8 +8,8 @@
  *
  */
 
-import rgbcolor from '../../rgbcolor/index.js';
-import * as stackblurCanvas from '../../stackblur-canvas/dist/stackblur-es.js';
+import rgbcolor from '../../../rgbcolor/index.js';
+import * as stackblurCanvas from '../../../stackblur-canvas/dist/stackblur-es.js';
 
 export default (function (rgbcolor,stackblurCanvas) { 'use strict';
 
@@ -4085,4 +4085,4 @@ export default (function (rgbcolor,stackblurCanvas) { 'use strict';
 
 	return canvg_1;
 
-}));
+});
