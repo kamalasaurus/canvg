@@ -8,6 +8,9 @@
  *
  */
 
+import rgbcolor from '../../rgbcolor/index.js';
+import * as stackblurCanvas from '../../stackblur-canvas/dist/stackblur-es.js';
+
 export default (function (rgbcolor,stackblurCanvas) { 'use strict';
 
 	rgbcolor = rgbcolor && rgbcolor.hasOwnProperty('default') ? rgbcolor['default'] : rgbcolor;
